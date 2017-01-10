@@ -21,7 +21,7 @@
         font-family: sans-serif;
       }
       h2{
-        color: green;
+        color: lavender;
       }
       body{
         font-size: 12px;
@@ -43,6 +43,21 @@
       }
       #item2{
         text-align: right;
+      }
+      ul{
+        padding: 10px;
+      }
+      #advanced-selectors ul li:nth-child(2n+1){
+        background-color: green;
+      }
+      #advanced-selectors ul li:hover{
+        background-color: yellow;
+      }
+      #advanced-selectors ul li:active{
+        background-color: red;
+      }
+      [title="Bitmaker"]:hover{
+        text-decoration: none;
       }
       /*
         After you've finished the "Tag Selectors" exercises, move your styles
